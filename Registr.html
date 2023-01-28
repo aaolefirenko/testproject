@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Регистрация нового пользователя</h1>
+    <h2>Форма регистрации</h2>
+
+    <form>
+        <p>
+            Имя пользователя:
+            <input 
+            type="text" 
+            placeholder="Введите имя" required autofocus="on">
+        </p>
+        <p>
+            Фамилия пользователя:
+            <input 
+            type="text" 
+            placeholder="Введите имя" required autofocus="on">
+        </p>
+        <p>
+            <label for="date">Дата рождения: </label>
+            <input type="date" id="date" name="date" required>
+        </p>
+
+        <p>
+            Электронная почта:
+            <input 
+            type="email" 
+            placeholder="Введите почту" required>
+        </p>
+
+        <p>
+            Пароль:
+            <input 
+            type="password" 
+            placeholder="Введите пароль" required>
+        </p>
+        <p>
+            Повторите пароль:
+            <input 
+            type="password" 
+            placeholder="Повторите пароль" required>
+        </p>
+
+        <p>
+
+            <h3>Какие условия для вас важны в отпуске?</h3>
+        </p>
+        <form name="choise" action="" method="">
+            <input type="checkbox" name="choise" value="1"/> Комфортабельное проживание<br />
+            <input type="checkbox" name="choise" value="2" checked="checked" /> Разнообразное питание<br />
+            <input type="checkbox" name="choise" value="3" /> Насыщенные туристические программы<br />
+            <input type="checkbox" name="choise" value="4" /> Наличие Wi-Fi в номере<br />
+            <input type="checkbox" name="choise" value="5" /> Постоянная смена локаций <br />
+            <input type="checkbox" name="choise" value="6" /> Наличие фотографа при отеле <br />
+            <input type="submit" value="OK" />
+            <input type="reset" value="Reset" />
+            </form>
+
+
+
+<p>
+При регистрации вы подтверждаете, что ознакомлены с Правилами и Политикой нашего сайта! <a href="#">Terms and Privacy</a>
+</p>
+<div>
+<button type="submit" class="registerbtn">Регистрация</button>
+
+</div>
+
+<div class="container signin">
+    <p>Уже имеете аккаунт? <a href="Войти">Войти </a> </p>
+
+
+</div>
+
+    </form>
+   
+</body>
+</html>
